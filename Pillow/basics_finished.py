@@ -11,8 +11,8 @@ print(image.width)
 print(image.height)
 print(image.mode)
 # image.info contains a dictionary of related data
-for k, v in image.info.items():
-    print("key: {0}, value: {1}".format(k, v))
+#  for k, v in image.info.items():
+#      print("key: {0}, value: {1}".format(k, v))
 
 # TODO: use the save function to convert an image to a new type
 # outfile = "ImagesArchive/Data.png"
@@ -21,4 +21,4 @@ for k, v in image.info.items():
 #     print("Image type: ", im.format)
 
 # TODO: show the image using the platform viewer app
-# image.show()
+image.show()
